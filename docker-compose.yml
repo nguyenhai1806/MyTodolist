@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  mytodolist:
+    image: ${DOCKER_REGISTRY-}mytodolist
+    build:
+      context: .
+      dockerfile: MyTodolist/Dockerfile

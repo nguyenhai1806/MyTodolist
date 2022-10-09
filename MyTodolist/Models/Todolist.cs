@@ -14,5 +14,4 @@ namespace MyTodolist.Models
     {
         public string Id { get; set; } = null!;
     }
-    
 }
